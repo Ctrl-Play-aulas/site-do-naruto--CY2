@@ -1,0 +1,137 @@
+.titulo {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.caixa {
+    background-color: blue;
+    border-radius: 16px;
+}
+
+.caixa2 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(25, 100%, 50%);
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+
+}
+
+.logo {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    ;
+}
+
+.subtitulo {
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+nav {
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav li {
+    padding: 1rem 2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3;
+}
+
+nav a:hover {
+
+    color: #ff9500;
+    
+}
+
+.about{
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+
+
+}
+
+.titulo-section{
+    color: #ff9500;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ff9500;
+    padding-bottom: 0.5rem;
+}
+
+.character{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.character-card{
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.character-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.character-image{
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.character-info{
+    padding: 1.5rem;
+    
+}
+
+.character-info p{
+    font-size: 15px;
+    
+}
+.character-name{
+    color: #ff6b00;
+    margin-bottom: 0.5rem;
+}
