@@ -8,30 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-.titulo {
-    font-family: 'Times New Roman', Times, serif;
-    color: brown;
-    font-size: 30px;
-    text-align: center;
-
-}
-
-.caixa {
-    background-color: blue;
-    border-radius: 16px;
-}
-
-.caixa2 {
-    width: 100px;
-    height: 100px;
-    background-color: green;
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-
-}
 
 header {
     display: flex;
@@ -95,8 +71,6 @@ nav a:hover {
     border-radius: 8px;
     margin: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-
-
 }
 
 .titulo-section{
@@ -104,6 +78,7 @@ nav a:hover {
     margin-bottom: 1.5rem;
     border-bottom: 2px solid #ff9500;
     padding-bottom: 0.5rem;
+    margin-left: 2rem;
 }
 
 .character{
@@ -130,8 +105,7 @@ nav a:hover {
 .character-image{
     width: 100%;
     height: 200px;
-    object-fit: cover;
-    
+    object-fit: cover;  
 }
 
 .character-info{
@@ -151,4 +125,11 @@ nav a:hover {
 .container{
     padding: 30px;
 
+}
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
 }
